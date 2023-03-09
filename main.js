@@ -1,7 +1,6 @@
 // Videos from 1-9
 // Assignment 2 
 //document.write ("<h1 style='color:blue;font-size:50px;font-weight:bold;text-align:center;font-family:arial'>Elzero</h1>");
-
 // document.write ("<h1 class='heading'>Elzero</h1>");
 
 // Assignment 3
@@ -34,3 +33,4 @@ console.log("Message two"); */
 document.write("Iam In Page"); */
 
 // ------------------------------------------------------------
+// Videos from 10-17
