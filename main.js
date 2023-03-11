@@ -34,3 +34,20 @@ document.write("Iam In Page"); */
 
 // ------------------------------------------------------------
 // Videos from 10-17
+
+//String
+console.log(typeof "Ahmed Mansour");
+//Number
+console.log(typeof 5000);
+//Object => Array
+console.log(typeof [17 , 18 , 20]);
+console.log(typeof ["Ahmed" , "Mansour" , "Mohamed"]);
+//Object 
+console.log(typeof {name: "Ahmed" , age: 17 , country: "Eg"});
+//boolean
+console.log(typeof true);
+console.log(typeof false);
+//undefined
+console.log(typeof undefined);
+//object => null
+console.log(typeof null);
