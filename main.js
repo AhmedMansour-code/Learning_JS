@@ -35,6 +35,7 @@ document.write("Iam In Page"); */
 // ------------------------------------------------------------
 // Videos from 10-17
 
+/*
 //String
 console.log(typeof "Ahmed Mansour");
 //Number
@@ -51,3 +52,12 @@ console.log(typeof false);
 console.log(typeof undefined);
 //object => null
 console.log(typeof null);
+*/
+
+var user = "Ahmed" ,
+    age = 18 ;
+    userName= ["Ah","MH"];
+
+console.log(user);
+console.log(age);
+console.log(userName);
