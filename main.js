@@ -54,6 +54,7 @@ console.log(typeof undefined);
 console.log(typeof null);
 */
 
+/*
 var user = "Ahmed" ,
     age = 18 ;
     userName= ["Ah","MH"];
@@ -61,3 +62,14 @@ var user = "Ahmed" ,
 console.log(user);
 console.log(age);
 console.log(userName);
+*/
+
+
+console.log('Ahmed "Mansour"');
+console.log("Ahmed 'Mansour'");
+console.log("Ahmed \"Mansour\"");
+console.log("Ahmed \\ Mansour");
+console.log("Ahmed \
+Mansour \
+Adel");
+console.log("Ahmed\nAdel\nMansour");
