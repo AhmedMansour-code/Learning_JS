@@ -64,7 +64,7 @@ console.log(age);
 console.log(userName);
 */
 
-
+/*
 console.log('Ahmed "Mansour"');
 console.log("Ahmed 'Mansour'");
 console.log("Ahmed \"Mansour\"");
@@ -73,3 +73,21 @@ console.log("Ahmed \
 Mansour \
 Adel");
 console.log("Ahmed\nAdel\nMansour");
+*/
+
+let cardTitle = "Elzero" ,
+    cardDesc = "Elzero Web School" ,
+    cardDate = "25/10"
+    numTimes = 4 ;
+
+let card = `
+<div>
+    <h3> Hello ${cardTitle} </h3>
+    <p>${cardDesc}</p>
+    <span>${cardDate}</span>
+</div>
+`;
+
+let repeatCard = card.repeat(numTimes);
+
+document.write(repeatCard);
