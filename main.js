@@ -75,9 +75,10 @@ Adel");
 console.log("Ahmed\nAdel\nMansour");
 */
 
+/*
 let cardTitle = "Elzero" ,
     cardDesc = "Elzero Web School" ,
-    cardDate = "25/10"
+    cardDate = "25/10" ,
     numTimes = 4 ;
 
 let card = `
@@ -91,3 +92,38 @@ let card = `
 let repeatCard = card.repeat(numTimes);
 
 document.write(repeatCard);
+*/
+
+// Assignment 1
+
+let numberOne = 10 ;
+let numberTwo = 20 ;
+
+console.log(numberOne + "" + numberTwo); 
+console.log(typeof numberOne + typeof numberTwo);
+console.log(`${numberOne}${numberTwo}`);
+console.log(typeof `${numberOne}${numberTwo}`);
+console.log(numberTwo + "\n" + numberOne);
+console.log(`${numberTwo}
+${numberOne}`);
+
+
+// Assignment 2
+
+console.log(typeof {elzero:"innerHTML"}); 
+console.log(typeof ["Elzero"]); 
+
+// Assignment 3
+
+console.log("`I'm In" + "\n" + "\\\\" + "\n" + "Love \\\\ \"\"\" '''" + "\n" + "++ With ++" + "\n" + '\\"""\\"""' + "\n" + '""JavaScript""``');
+//or
+console.log("`I'm In\n\\\\\nLove \\\\ \"\"\" '''\n++ With ++\n\\\"\"\"\\\"\"\"\n\"JavaScript\"\"``");
+
+
+// Assignment 4
+
+let a = 21;
+let b = 20;
+let c = `_${b}${a}_`;
+
+console.log(`_${a}${c.repeat(3)}${b}_`);
