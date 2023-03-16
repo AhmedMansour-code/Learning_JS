@@ -35,6 +35,7 @@ document.write("Iam In Page"); */
 // ------------------------------------------------------------
 // Videos from 10-17
 
+//This part for Studying only
 /*
 //String
 console.log(typeof "Ahmed Mansour");
