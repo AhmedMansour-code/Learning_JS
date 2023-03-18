@@ -96,7 +96,7 @@ document.write(repeatCard);
 */
 
 // Assignment 1
-
+/*
 let numberOne = 10 ;
 let numberTwo = 20 ;
 
@@ -127,4 +127,19 @@ let a = 21;
 let b = 20;
 let c = `_${b}${a}_`;
 
-console.log(`_${a}${c.repeat(3)}${b}_`);
+console.log(`_${a}${c.repeat(3)}${b}_`); */
+
+// ------------------------------------------------------------
+// Videos from 18-
+
+//Arithment Operators 
+
+/* 
+
++ Addition
+- Subtraction
+
+*/
+
+console.log(10 + 20);
+console.log(10 + "Ahmed");
