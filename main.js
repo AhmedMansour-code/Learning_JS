@@ -132,14 +132,44 @@ console.log(`_${a}${c.repeat(3)}${b}_`); */
 // ------------------------------------------------------------
 // Videos from 18-
 
-//Arithment Operators 
+//Arithment Operators  =video 18
 
-/* 
-
-+ Addition
-- Subtraction
-
-*/
-
+// + Addition
 console.log(10 + 20);
 console.log(10 + "Ahmed");
+
+// - Subtraction
+console.log(10 - 20);
+console.log(10 - "Ahmed"); //NaN
+console.log(typeof NaN);
+
+// * multiplication
+console.log (10 * 20);
+console.log(10 * -20);
+
+// / Division
+console.log(20 / 5);
+console.log(20 / 3);
+
+// ** Exponentiation 
+console.log(2 ** 4); // = the same as the following line
+console.log(2 * 2 * 2 * 2);
+
+
+// % Modulas
+console.log(10 % 2); // 0 , Even number
+console.log(11 % 2); // 1 , odd number
+
+// ++ Increment [Post - pre]
+let num = 5;
+console.log(num++); // 5
+console.log(num); // 6
+console.log(++num); // 7
+
+// -- Decrement [post - pre]
+let x = 8 ;
+console.log(x--);
+console.log(--x);
+
+
+
