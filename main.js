@@ -132,7 +132,10 @@ console.log(`_${a}${c.repeat(3)}${b}_`); */
 // ------------------------------------------------------------
 // Videos from 18-
 
-//Arithment Operators  =video 18
+//Arithment Operators  
+
+//video 18
+//-------------
 
 // + Addition
 console.log(10 + 20);
@@ -172,4 +175,49 @@ console.log(x--);
 console.log(--x);
 
 
+//video 19
+//-------------
 
+// + unary Plus
+// - unary Negation 
+// Tests 
+
+// Normal Number
+console.log(+100); // 100
+console.log(-100); // -100
+
+// String Number
+console.log(+"100"); // 100
+console.log(-"100"); // -100
+
+// String Negative Number 
+console.log(+"-100"); // -100
+console.log(-"-100"); // 100
+
+// String Text
+console.log(+"Ahmed"); // NaN
+console.log(-"Ahmed"); // NaN
+
+// Float
+console.log(+"42.25"); // 42.25
+console.log(-"42.25"); // -24.25
+
+// Hexadecimal Number System => 0xFF
+console.log(+0xFF); // 255
+console.log(-0xFF); // -255
+
+// null 
+console.log(+null); // 0
+console.log(-null); // -0
+
+// false
+console.log(+false); // 0
+console.log(-false); // -0
+
+// true
+console.log(+true); //1
+console.log(-true); // -1
+
+// if i want to return number from string i can use the instructor Namber
+
+console.log(Number("100")); 
