@@ -130,7 +130,7 @@ let c = `_${b}${a}_`;
 console.log(`_${a}${c.repeat(3)}${b}_`); */
 
 // ------------------------------------------------------------
-// Videos from 18-
+// Videos from 18 - 22
 
 //Arithment Operators  
 
@@ -221,3 +221,30 @@ console.log(-true); // -1
 // if i want to return number from string i can use the instructor Namber
 
 console.log(Number("100")); 
+
+
+
+// Video 20
+//---------------------
+
+// Type casting or type coercion 
+
+let a = "10";
+let b = 20;
+let c = true;
+
+console.log(a + b); // 1020 [concatenatio string]
+console.log(+a + b); // 30 [Arthimetic operator (+) ]
+
+console.log(a - b); // -10 [Arthimetic operator (-) ]
+console.log("Ahmed" - b); //NaN
+console.log("Ahmed" - a); //NaN
+
+console.log("" - a); // -10 [ 0 - 10 because it's an Arthimatic operator ]
+console.log(false + true); // 1 [0 + 1]
+console.log(+false + +true); // 1 [0 + 1]
+
+console.log("" + c); // true [string + bolean = String]
+console.log(b + c); // 21 [number + boolean = number]
+console.log(a + b + c); // 1020true  [string + number + boolean = String]
+console.log(+a + b + c); // 31 [unary plus + number + boolean = number]  
