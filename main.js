@@ -134,6 +134,7 @@ console.log(`_${a}${c.repeat(3)}${b}_`); */
 
 //Arithment Operators  
 
+/*
 //video 18
 //-------------
 
@@ -173,8 +174,10 @@ console.log(++num); // 7
 let x = 8 ;
 console.log(x--);
 console.log(--x);
+*/
 
 
+/*
 //video 19
 //-------------
 
@@ -221,14 +224,14 @@ console.log(-true); // -1
 // if i want to return number from string i can use the instructor Namber
 
 console.log(Number("100")); 
-
+*/
 
 
 // Video 20
 //---------------------
 
 // Type casting or type coercion 
-
+/*
 let a = "10";
 let b = 20;
 let c = true;
@@ -248,3 +251,21 @@ console.log("" + c); // true [string + bolean = String]
 console.log(b + c); // 21 [number + boolean = number]
 console.log(a + b + c); // 1020true  [string + number + boolean = String]
 console.log(+a + b + c); // 31 [unary plus + number + boolean = number]  
+*/
+
+// Video 21
+//---------------------
+
+// Assignment Operators
+let a = 20; // 20
+    a = 10; // 10
+    a = 60; // 60
+    a = a + 20; // 80
+    a += 20; // 100
+    a -= 50; // 50
+    a /= 5; // 10
+    a *= 10; // 100
+    a /= 50; // 2
+    a **= 2; // 4
+
+console.log(a);
