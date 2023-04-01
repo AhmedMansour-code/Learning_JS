@@ -257,7 +257,7 @@ console.log(+a + b + c); // 31 [unary plus + number + boolean = number]
 //---------------------
 
 // Assignment Operators
-let a = 20; // 20
+/* let a = 20; // 20
     a = 10; // 10
     a = 60; // 60
     a = a + 20; // 80
@@ -268,4 +268,186 @@ let a = 20; // 20
     a /= 50; // 2
     a **= 2; // 4
 
-console.log(a);
+console.log(a); */
+
+// Video 22
+//---------------------
+// Operators Challenge 
+// challenge 1
+//-------------
+/*
+let a = 10;
+let b = "20";
+let c = 80;
+*/
+//console.log(++a + +b++ + +c++ - +a++); // 100
+/* 
+    [++a] 
+    - Value : 11
+    - Explain : Pre Increment
+    [+]
+    - Explain : Arthimetic operator (Addition)
+    [+b++] => [+b][b++]
+    - Value : 20
+    - Explain : [+b] unary plus b = 20 , [b++] post increment
+    [+]
+    - Explain : Arthimetic operator (Addition)
+    [+c++] => [+c][c++]
+    - Value : 80
+    - Explain : [+b] unary plus c = 80 , [b++] post increment
+    [-]
+    - Explain : Arthimetic operator (Subtraction)
+    [+a++] => [+a][a++]
+    - Value : 11
+    - Explain : [+a] unary plus a = 11 , [a++] post increment
+
+    output = 11 + 20 + 80 - 11 = 100
+*/
+
+//console.log(++a + -b + +c++ - -a++ + +a); // 100
+/* 
+    [++a] 
+    - Value : 13
+    - Explain : Pre Increment
+    [+]
+    - Explain : Arthimetic operator (Addition)
+    [-b]
+    - Value : -21
+    - Explain : unary Negative
+    [+]
+    - Explain : Arthimetic operator (Addition)
+    [+c++] => [+c][c++]
+    - Value : 81
+    - Explain : [+c] unary plus c = 81 , [c++] post increment = 82
+    [-]
+    - Explain : Arthimetic operator (Subtraction)
+    [-a++] => [-a][a++]
+    - Value : -13
+    - Explain : [-a] unary negative a = -13 , [a++] post increment = -14
+    [+]
+    - Explain : Arthimetic operator (Addition)
+    [+a]
+    - Value : 14
+    - Explain : [+a] unary plus a = 14
+
+
+    output = 13 + -21 + 81 - -13 + 14 = 100
+*/
+
+//console.log(--c + +b + --a * +b++ - +b * a + --a - +true); // 100
+/* 
+    [--c] 
+    - Value : 81
+    - Explain : Pre Decrement
+    [+]
+    - Explain : Arthimetic operator (Addition)
+    [+b]
+    - Value : 21
+    - Explain : unary Plus 
+    [+]
+    - Explain : Arthimetic operator (Addition)
+    [--a] 
+    - Value : 13
+    - Explain : pre Decrement
+    [*]
+    - Explain : Arthimetic operator (Multiplication)
+    [+b++] => [+b][b++]
+    - Value : 21
+    - Explain : [+b] unary Plus p = 21 , [b++] post increment = 22
+    [-]
+    - Explain : Arthimetic operator (Subtraction)
+    [+b]
+    - Value : 22
+    - Explain : Unary Plus
+    [*]
+    - Explain : Arthimetic operator (Multiplication)
+    [a]
+    - Value : 13
+    - Explain : number
+    [+]
+    - Explain : Arthimetic operator (Addition)
+    [--a] 
+    - Value : 12
+    - Explain : pre Decrement
+    [-]
+    - Explain : Arthimetic operator (Subtraction)
+    [+true] 
+    - Value : 1
+    - Explain : Unary Plus
+
+
+    output = 81 + 21 + ( 13 * 21 ) - ( 22 * 13 ) + 12 - 1 = 100
+*/
+
+// challenge 2
+//-------------
+/*
+let d = "-100";
+let e = "20";
+let f = 30;
+let g = true;
+
+//Only Use Variables Values
+// Do not Use variable Twice 
+
+console.log(+e * -d); // 2000
+console.log(-d + ++f + ++e * ++g); // 173
+*/
+
+// Assignment 1
+
+// Replace ? With Arithmetic Operators
+console.log(10 - 20 + 15 + 3 + 190 + 10 % 400); // 0
+
+
+// Assignment 2
+
+//let num = 3;
+
+// Solution One
+//console.log(--num + num + num); // 6
+
+// Solution Two
+//console.log(num * num - num); // 6
+
+// Soultion Three
+//console.log(num + --num + +true); // 6
+
+// Soultion Four
+//console.log(++num + --num + -true); // 6
+
+// Solution Five
+//console.log(num + num); // 6
+
+// Solution Six
+//console.log(num ** num / num - num); // 6
+
+
+// Assignment 3
+
+//let num = "10";
+
+// Solution One
+//console.log(+num + +num); // 20
+
+// Solution Two
+//console.log(++num + --num - +true); // 20
+
+// Solution Three
+//console.log(--num - num++ + ++num + --num - +true); // 20
+
+// Solution Four
+//console.log(+num * +num - --num * + ++num + num); // 20
+
+
+// Assignment 4
+
+let points = 10;
+
+// Write Your Code Here
+
+//console.log(points); // 13
+
+// Write Your Code Here
+
+//console.log(points); // 8;
