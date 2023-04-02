@@ -397,7 +397,7 @@ console.log(-d + ++f + ++e * ++g); // 173
 // Assignment 1
 
 // Replace ? With Arithmetic Operators
-console.log(10 - 20 + 15 + 3 + 190 + 10 % 400); // 0
+//console.log(10 - 20 + 15 + 3 + 190 + 10 % 400); // 0
 
 
 // Assignment 2
@@ -442,7 +442,7 @@ console.log(10 - 20 + 15 + 3 + 190 + 10 % 400); // 0
 
 // Assignment 4
 
-let points = 10;
+//let points = 10;
 
 // Write Your Code Here
 
@@ -451,3 +451,20 @@ let points = 10;
 // Write Your Code Here
 
 //console.log(points); // 8;
+
+
+
+
+// Video 23
+//---------------------
+// Number
+
+console.log(1000000);
+console.log(1_000_000);
+console.log(1000000.0000);
+console.log(1e6);
+console.log(10 ** 6);
+console.log(Number("1000000"));
+console.log(Number("1_000_000")); // NAN , i can't use the syntactic suger inside a string 
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_VALUE); // This is the MAX value however i add any value to this value , it will be ignored.
