@@ -454,11 +454,10 @@ console.log(-d + ++f + ++e * ++g); // 173
 
 
 
-
 // Video 23
 //---------------------
 // Number
-
+/*
 console.log(1000000);
 console.log(1_000_000);
 console.log(1000000.0000);
@@ -467,4 +466,5 @@ console.log(10 ** 6);
 console.log(Number("1000000"));
 console.log(Number("1_000_000")); // NAN , i can't use the syntactic suger inside a string 
 console.log(Number.MAX_SAFE_INTEGER);
-console.log(Number.MAX_VALUE); // This is the MAX value however i add any value to this value , it will be ignored.
+console.log(Number.MAX_VALUE); // This is the MAX value however i add any value to this value , it will be ignored. */
+
