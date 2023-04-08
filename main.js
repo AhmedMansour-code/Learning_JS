@@ -468,3 +468,11 @@ console.log(Number("1_000_000")); // NAN , i can't use the syntactic suger insid
 console.log(Number.MAX_SAFE_INTEGER);
 console.log(Number.MAX_VALUE); // This is the MAX value however i add any value to this value , it will be ignored. */
 
+//video 24
+//---------------------
+let a = "10";
+let b = "20";
+console.log(+a);
+console.log(+a + true);
+console.log(`${a}${b}`); 
+
