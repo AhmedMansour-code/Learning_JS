@@ -470,9 +470,42 @@ console.log(Number.MAX_VALUE); // This is the MAX value however i add any value 
 
 //video 24
 //---------------------
-let a = "10";
-let b = "20";
-console.log(+a);
-console.log(+a + true);
-console.log(`${a}${b}`); 
+// Number Methods
+// Two Dots to use the method
+
+//  toString()  [the output is String]
+console.log(100..toString()); //100
+console.log((100).toString()); //100
+
+// toFixed      [The Output is String]
+console.log(100.5555.toFixed()); //101
+console.log((100.5655).toFixed(2)); //100.57
+console.log(100.5544.toFixed(2)); //100.55
+
+// parseInt()   [The Output Is Integer Number]
+console.log(parseInt("100")); //100
+console.log(parseInt("100 Ahmed")); //100
+console.log(parseInt("Ahmed 100")); // NaN
+console.log(parseInt("100.5568")); //100
+
+// parseFloat() [The Output Is Float number]
+console.log(parseFloat("100.545")); //100.545
+
+
+// isInteger()  [The Output Is Bolean]  (ES6)
+console.log(Number.isInteger("Osama")); //false
+console.log(Number.isInteger("100")); //false
+console.log(Number.isInteger(100.524)); //false
+console.log(Number.isInteger(100)); //true
+
+
+// isNaN()      [The Output Is Bolean]   (ES6)
+console.log(Number.isNaN("osama")); //false
+console.log(Number.isNaN("osama" / 20)); //true
+console.log(Number.isNaN(parseInt("100"))); //false
+console.log(Number.isNaN(parseInt("Osama 100"))); //true
+
+
+
+
 
