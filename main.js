@@ -472,7 +472,7 @@ console.log(Number.MAX_VALUE); // This is the MAX value however i add any value 
 //---------------------
 // Number Methods
 // Two Dots to use the method
-
+/*
 //  toString()  [the output is String]
 console.log(100..toString()); //100
 console.log((100).toString()); //100
@@ -505,7 +505,34 @@ console.log(Number.isNaN("osama" / 20)); //true
 console.log(Number.isNaN(parseInt("100"))); //false
 console.log(Number.isNaN(parseInt("Osama 100"))); //true
 
+*/
 
+//video 25
+//---------------------
+// Math Object
 
+// round()
+console.log(Math.round(99.5)); //100
+console.log(Math.round(99.2)); //99
 
+// ceil()
+console.log(Math.ceil(99.2)); //100
 
+// floor()
+console.log(Math.floor(99.9)); //99
+
+// min()
+console.log(Math.min(10, 20, 100, -100, 90)); //-100
+
+// max()
+console.log(Math.max(10, 20, 100, -100, 90)); //100
+
+// pow()
+console.log(2 ** 4); //16
+console.log(Math.pow(2 , 4)); //16
+
+// random()
+console.log(Math.random()); // Random Number
+
+// trunc()
+console.log(Math.trunc(99.6)); //99
