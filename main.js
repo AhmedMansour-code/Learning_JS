@@ -542,7 +542,7 @@ console.log(Math.trunc(99.6)); //99
 //video 26
 //---------------------
 // Numbers Challenge
-
+/*
 let a = 100;
 let b = 2_00.5;
 let c = 1e2;
@@ -573,4 +573,39 @@ console.log((Math.floor(b) / Math.ceil(d)).toFixed(2)); // 66.67 => String
 console.log(Math.round(Math.floor(b) / Math.ceil(d))); // 67 => Number
 console.log(Math.ceil(Math.floor(b) / Math.ceil(d))); // 67 => Number
 
+*/
 
+//video 27
+//---------------------
+// String Method Part 1
+
+let thename = "Ahmed";
+
+// Access to the index
+console.log(thename[2]); //m
+console.log(thename[5]); //undefined
+// Access to the index by charAt()
+console.log(thename.charAt(2)); //m
+console.log(thename.charAt(5)); // 
+
+// length
+console.log(thename.length); //5
+
+// To show that we count the spaces inside the string
+
+let myname = "  Ahmed  ";
+
+console.log(myname.length); //9
+console.log(myname[2]); //A
+
+// trim()  => remove trailing and leading white spaces
+console.log(myname.trim()); //Ahmed 
+
+// toUpperCase()
+console.log(myname.toUpperCase()); //  AHMED   
+// toLowerCase()
+console.log(myname.toLowerCase()); //  ahmed
+
+// Chain Method  => to use all the method needed to get the desired output in the same line
+// Example => Get from the string myname output capital letter M without any spaces
+console.log(myname.trim().charAt(2).toUpperCase()); 
